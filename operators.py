@@ -29,6 +29,8 @@ num %=5
 num **=2
 print(num)
 
+
+
 #logical operators
 a=True
 b=False
