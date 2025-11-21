@@ -3,5 +3,5 @@
 
 a=5
 b="vedang"
-convert=str(a)
+convert=str(a) #This got converted into string by int
 print(5*convert)
