@@ -21,8 +21,23 @@ print(string.find("f"))
 #end: not given → go until the beginning
 #step: -1 → move backwards one character at a time
 string=input("Enter the string for checking:")
-
+             
 if string==string[::-1]:
     print("the string is palindrome")
 else:
     print("The string is not palindrome")
+
+#string[::1]:
+#start → not given → means start from the beginning
+#end → not given → means go till the end
+#step = 1 → move forward one character at a time
+
+
+
+#wap where you have list of subjects. Assume one classroom for each subject and how much classrooms are require.
+Subjects=["python","java","c++","python","javascript","java","python","java","c++","c"]
+classroom=set(Subjects)
+print(len(classroom))
+
+classroomcount=tuple(classroom)
+print(classroomcount)
