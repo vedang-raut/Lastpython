@@ -1,15 +1,11 @@
 
-#Wap to search a X number in the list
-search=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-x=int(input("Enter the number from list:"))
+
+#Wap to get sum of first n natural numbers.
+n=int(input("Enter the number:"))
 count=0
-idx=0
-while count<=9:
-    case=search[idx]
-    if (case==x):
-        print(f"The number {x}is found at index{idx}")
-        break
-    else:
-        print("Not found")
-    idx=idx+1
+sum=0
+while count<=n:
+    sum=sum+count
+    print(f"{sum} is at round {count}")
     count=count+1
+print(f"The final sum is {sum}")
