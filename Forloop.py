@@ -1,9 +1,9 @@
 
-#Wap to find factorial of a number
+#wap to find the sum of the first n natural numbers.
+n=int(input("Enter the last n  natural number: "))
+sum=0
+for i in range(0,n+1):
+    sum=sum+i
+    print(f"The sum of this round{i} is {sum}")
 
-n=int(input("Enter the number:"))
-count=1
-for i in range(1,n+1):
-    count=count*i
-    print(f"{count}")
-print(count)
+print(f"The final sum is: {sum}")
